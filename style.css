@@ -1,93 +1,75 @@
 /* Header Setion */
-.wrapper{
-    margin: 30px 70px 20px 30px;
+.wrapper {
+  margin: 50px;
 }
-.header__logo{
-    padding-left: 30px;
-    font-weight: bolder;
+.header {
+  padding-bottom: 50px;
+  display: block;
 }
-.header__items ul{
-    display: flex;
+.header__logo {
+  display: inline;
+  width: 70%;
 }
-.header__items  li{
-   list-style-type: none;
-   margin: 0px 25px;
+.header__items ul {
+  display: flex;
+  list-style-type: none;
 }
-.header__items li a:hover{
-    color: blue;
+.header__items ul li {
+  padding-right: 50px;
+  display: block;
 }
 /* content section 1 */
-.content{
-    background-color: rgb(238, 229, 229);
-    padding: 40px 10px 50px  10px;
-    margin: 70px 40px 20px 20px;
+.content {
+  width: 95%;
+  background-color: rgb(238, 229, 229);
+  padding: 40px 20px;
+  display: block;
 }
-.content__button{
-    background-color: rgb(238, 229, 229);
-}
-.content__button:hover{
-    background-color: blue;
-    color:  white;
+.content__para {
+  width: 30%;
 }
 /* Content Section 2  */
-.section{
-    display: flex;
-    align-content: center;
+.section__container {
+  text-align: center;
+  display: inline;
+  width: 31%;
+  float: left;
+  padding: 10px 10px;
 }
-.section__container{
-    margin: 0px 30px; 
-    align-content: center;
-}
-.section__container a:hover{
-    color: blue;
-}
-.section__container-empty{
-    background-color: rgb(238, 229, 229);
-    padding : 40px 200px;
-}
-.section__container-heading{
-    text-align: center;
-
-}
-.section__container-content{
-    text-align: center;
-}
-.section__container-link{
-    padding-left: 150px;
+.section__container-empty {
+  background-color: rgb(238, 229, 229);
+  padding: 3em 4em;
+  align-content: center;
+  margin: 20px 20px;
 }
 /* footer section */
-.footerup__content{
+.footerup {
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(238, 229, 229);
+}
+.footerup__div{
     display: flex;
-    background-color: rgb(238, 229, 229);
-    padding: 10px 200px 0px;
-    margin: 20px 0px 5px;
 }
-.footerup__content-heading{
-    padding-left: 100px;
+.footerup__div-heading {
+  padding-left: 350px;
+  padding-top: 5px;
 }
-.footerup__content-text{
-    padding: 30px 30px;
+.footerup__div-content {
+  padding: 30px 70px;
 }
-.footerup__content-button{
-    padding: 25px 20px;
-}
-.footerup__button{
-    padding: 5px 50px;
-    background-color: blue;
-    color: white;
-}
-.footerup__button:hover{
-    background-color: white;
-    color: black;
+.footerup__div-button {
+  padding: 7px 50px;
+  margin: 0px 30px;
+  background-color: blue;
+  color: white;
 }
 /* footer section */
-.footerdown__left{
-    float: left;
-
+.footerdown__left {
+  float: left;
 }
-.footerdown__right{
-    float: right;
-
+.footerdown__right {
+  float: right;
 }
-
-
